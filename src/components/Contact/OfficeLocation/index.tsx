@@ -24,9 +24,9 @@ const Location = () => {
               </div>
               <div className='col-span-3'>
                 <Link
-                  href='mailto:headoffice@venus.com'
+                  href='mailto:emmanuelbadibanga250@gmail.com'
                   className='sm:text-2xl text-xl text-white font-medium underline'>
-                  headoffice@venus.com
+                  emmanuelbadibanga250@gmail.com
                 </Link>
                 <Link
                   href='tel:731-621-5503'
@@ -44,20 +44,20 @@ const Location = () => {
               </div>
               <div className='col-span-3'>
                 <p className='sm:text-2xl text-xl text-white/50 font-normal max-w-64 leading-7'>
-                  3502 Marcus Street Geraldine Zip code 35974
+                  Kinshasa Zip code 1004140
                 </p>
               </div>
               <div className='col-span-3'>
                 <Link
-                  href='mailto:Office@venus.com'
+                  href='mailto:emmanuelbadibanga250@gmail.com'
                   className='sm:text-2xl text-xl text-white font-medium underline'>
-                  Office@venus.com
+                  emmanuelbadibanga250@gmail.com
                 </Link>
                 <Link
                   href='tel:731-235-7993'
                   className='sm:text-2xl text-white/80 text-xl text-IceBlue flex items-center gap-2 hover:text-opacity-100 w-fit'>
                   <span className='text-white/40!'>Call</span>
-                  731-235-7993
+                  (+243) 844 297 349 /826 222 466
                 </Link>
               </div>
             </div>

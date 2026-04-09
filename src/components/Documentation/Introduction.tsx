@@ -87,8 +87,7 @@ export const Introduction = () => {
         </div>
         <div className="mt-5">
           <p className="text-base font-medium text-midnight_text dark:text-white/50">
-            Venus Tailwind NextJs Template is built with Tailwindcss and Nextjs.
-          </p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste reiciendis voluptatem natus voluptatum blanditiis nobis quos voluptas autem aliquam. Consequuntur suscipit placeat vel eos dolorum unde rem quidem ut inventore.          </p>
           <p className="text-base font-medium text-midnight_text dark:text-white/50">
             These theme is ready to use and you can totally customize as per
             your requirement.
@@ -101,9 +100,8 @@ export const Introduction = () => {
       </div>
 
       <div
-        className={`lg:hidden block fixed top-0 right-0 h-full w-full bg-white dark:bg-darklight shadow-lg transform transition-transform duration-300 max-w-xs ${
-          docNavbarOpen ? "translate-x-0" : "translate-x-full"
-        } z-50`}
+        className={`lg:hidden block fixed top-0 right-0 h-full w-full bg-white dark:bg-darklight shadow-lg transform transition-transform duration-300 max-w-xs ${docNavbarOpen ? "translate-x-0" : "translate-x-full"
+          } z-50`}
       >
         <div className="flex items-center justify-between p-4">
           <h2 className="text-lg font-bold text-midnight_text dark:text-white">

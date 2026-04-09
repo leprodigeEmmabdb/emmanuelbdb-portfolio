@@ -12,13 +12,14 @@ const Footer: FC = () => {
             <div className='sm:content-normal sm:text-start text-center content-center sm:w-auto w-full'>
               <Link href='/' className='md:block flex justify-center'>
                 <Image
-                  src={getImgPath('/images/logo/logo-white.svg')}
+                  src={getImgPath('/images/hero/Logo_BDB_without_bcground.png')}
                   alt='logo'
                   width={160}
                   height={50}
-                  style={{ width: 'auto', height: 'auto' }}
+                  style={{ width: '10vw', height: '5vw' }}
                   quality={100}
                   unoptimized
+                  className='border border-solid rounded'
                 />
               </Link>
               <h2 className='text-white py-10 text-[40px] leading-tight font-bold'>
@@ -41,39 +42,20 @@ const Footer: FC = () => {
                 <Link
                   href='tel:+(690) 2560 0020'
                   className='text-2xl text-white/50 hover:text-white'>
-                  +(690) 2560 0020
+                  <p>+(243) 844 297 349 </p>
+                  <p className='ml-21'>826 222 466</p>
                 </Link>
               </div>
               <div className='sm:block flex items-center gap-3'>
                 <p className='text-base font-bold text-white'>Email</p>
                 <Link
-                  href='mailto:info@venus.com'
+                  href='emmanuelbadibanga250@gmail.com'
                   className='text-2xl text-white/50 hover:text-white'>
-                  info@Venus.com
+                 emmanuelbadibanga
                 </Link>
               </div>
               <div>
                 <ul className='flex items-center gap-3 mt-[1.875rem]'>
-                  <li className='group'>
-                    <Link href='#' className=''>
-                      <svg
-                        width='25'
-                        height='25'
-                        viewBox='0 0 25 25'
-                        fill='#A3BBD1'
-                        xmlns='http://www.w3.org/2000/svg'
-                        className='group-hover:fill-primary'>
-                        <g clipPath='url(#clip0_1_343)'>
-                          <path d='M22.9128 0.769043H2.06165C1.34768 0.769472 0.7689 1.34854 0.769043 2.0628V22.9139C0.769472 23.6279 1.34854 24.2067 2.0628 24.2065H13.2889V15.1428H10.2448V11.5952H13.2889V8.98433C13.2889 5.95665 15.1372 4.3087 17.838 4.3087C19.1317 4.3087 20.2433 4.40512 20.5673 4.44818V7.61261H18.7049C17.2355 7.61261 16.951 8.31084 16.951 9.33566V11.5952H20.4643L20.0066 15.1428H16.951V24.2065H22.9128C23.6272 24.2067 24.2064 23.6278 24.2065 22.9134C24.2065 22.9132 24.2065 22.9131 24.2065 22.9128V2.06165C24.2063 1.34768 23.627 0.7689 22.9128 0.769043Z' />
-                        </g>
-                        <defs>
-                          <clipPath id='clip0_1_343'>
-                            <rect width='25' height='25' />
-                          </clipPath>
-                        </defs>
-                      </svg>
-                    </Link>
-                  </li>
                   <li className='group'>
                     <Link href='#'>
                       <svg
@@ -186,7 +168,7 @@ const Footer: FC = () => {
               href='https://themewagon.com/'
               target='_blank'
               className='hover:text-primary'>
-              {' '}ThemeWagon
+              {' '}Emmanuel Badibanga
             </Link>
           </p>
         </div>

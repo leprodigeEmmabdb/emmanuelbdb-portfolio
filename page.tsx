@@ -3,7 +3,7 @@
 const portfolioItems = [
   { slug: "project-alpha", title: "Project Alpha", content: "Details about project Alpha..." },
   { slug: "project-beta", title: "Project Beta", content: "Details about project Beta..." },
-  { slug: "venus-nextjs", title: "Venus Next.js Theme", content: "Details about the Venus theme..." },
+  { slug: "Emmanuel Badibanga", title: "Emmanuel Badibanga", content: "Details about Emmanuel Badibanga..." },
 ];
 
 // This function tells Next.js which slugs to pre-render at build time.
