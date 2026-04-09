@@ -55,7 +55,7 @@ const PortfolioCard = () => {
       <div className='lg:px-9 m-auto px-0 max-w-[1600px] slider-container'>
         <Slider {...settings}>
           {portfolioinfo.map((item, index) => (
-            <Link key={index} href={`/portfolio/${item.slug}`} passHref>
+            <Link key={index} href={`/portfolio/`} passHref>
               <div
                 className={`px-3 group ${index % 2 !== 0 ? 'lg:mt-24 ' : ''}`}>
                 <div className='relative overflow-hidden rounded-lg'>
